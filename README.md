@@ -1,5 +1,3 @@
 # README
 
-Reproduction for various SvelteKit bugs.
-
-See the branches for each bug.
+Reproduction for [#2275](https://github.com/sveltejs/kit/issues/2275).
