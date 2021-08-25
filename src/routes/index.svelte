@@ -1,11 +1,7 @@
 <script>
-    async function loadModule() {
-        const { foo } = await import("$lib/mod.js");
-        // vvv DELETE ME vvv
-        await import("$lib/mod.css");
-        
-        console.log("Module loaded successfully.")
+    async function dynamicallyLoadCSS() {
+        await import("$lib/mod.css");   
     }
 </script>
 
-<button on:click={loadModule}>Load module</button>
+<button on:click={dynamicallyLoadCSS}>Dynamically Load CSS</button>
