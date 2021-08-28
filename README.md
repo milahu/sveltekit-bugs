@@ -1,5 +1,3 @@
 # README
 
-Reproduction for various SvelteKit bugs.
-
-See the branches for each bug.
+Reproduction for https://github.com/pngwn/MDsveX/issues/296
